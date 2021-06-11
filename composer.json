@@ -1,0 +1,17 @@
+{
+    "name" : "magepow/ajaxwishlist",
+    "description": "Ajax Wishlist",
+    "type": "magento2-module",
+    "version": "1.0.0-beta",
+    "autoload": {
+        "psr-4": {
+            "Magepow\\AjaxWishlist\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    },
+    "require": {
+        "magento/module-wishlist": "*"
+    }
+}
